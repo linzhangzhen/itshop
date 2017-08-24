@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../edu/vendor/barryvdh/laravel-debugbar" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/maximebf/debugbar" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../edu/vendor/barryvdh/laravel-debugbar" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/maximebf/debugbar" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../edu/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../edu/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../edu/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,21 @@
+[ 2017-07-07T21:18:38+08:00 ] 127.0.0.1 /index.php/home/user.regist
+ERR: 无法加载控制器:User.regist
+
+[ 2017-07-07T21:18:43+08:00 ] 127.0.0.1 /index.php/home/user.register
+ERR: 无法加载控制器:User.register
+
+[ 2017-07-07T21:28:11+08:00 ] 127.0.0.1 /index.php/home/user/login
+ERR: XML标签语法错误
+
+[ 2017-07-07T21:43:32+08:00 ] 127.0.0.1 /index.php/home/goods/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id.goods_name' in 'field list'
+
+[ 2017-07-07T21:43:37+08:00 ] 127.0.0.1 /index.php/home/goods/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id.goods_name' in 'field list'
+
+[ 2017-07-07T21:43:41+08:00 ] 127.0.0.1 /index.php/home/goods/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id.goods_name' in 'field list'
+
+[ 2017-07-07T21:44:47+08:00 ] 127.0.0.1 /index.php/home/goods/showlist
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goods_id.goods_name' in 'field list'
+

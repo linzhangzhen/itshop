@@ -1,0 +1,3131 @@
+[ 2017-07-05T09:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:20:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:20:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.270015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T09:20:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:23:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/AD_LY_URL.htmllayer.js
+ERR: ÈùûÊ≥ïÊìç‰Ωú:AD_LY_URL.htmllayer.js
+
+[ 2017-07-05T09:23:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:23:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T09:23:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:24:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/AD_LY_URL.htmllayer.js
+ERR: ÈùûÊ≥ïÊìç‰Ωú:AD_LY_URL.htmllayer.js
+
+[ 2017-07-05T09:25:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:25:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:25:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T09:25:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:29:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T10:29:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:30:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T10:31:39+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T10:31:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:31:57+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T10:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T10:32:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:33:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T10:34:52+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:35:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:35:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T10:35:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:36:02+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:36:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:36:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:38:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T10:38:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T10:38:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 52 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 53 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T10:39:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: verify E:\Web\itshop\Application\Admin\Controller\ManagerController.class.php Á¨¨ 53 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:40:04+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:40:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:40:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:41:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T10:42:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:43:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:44:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:44:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:44:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:44:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:45:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:45:14+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:45:52+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T10:45:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:46:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T10:47:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:47:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:47:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:47:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T10:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:49:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:51:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:51:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:54:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:55:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:59:52+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T10:59:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:19:50+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:20:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:20:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T11:21:08+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:36:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/ccVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:37:28+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:41:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T13:41:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T13:42:00+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T13:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:43:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:43:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T13:44:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:44:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:45:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T13:45:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:46:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T13:47:51+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T13:48:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:48:05+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:48:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:49:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T13:49:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:49:12+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:50:09+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:50:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T13:50:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T13:51:21+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T13:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T13:52:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T13:53:18+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T13:54:16+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T13:54:20+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:00:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:01:35+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:02:32+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:03:55+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:09:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T14:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T14:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:13:19+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:13:25+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:13:45+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:14:11+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:14:23+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:14:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T14:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T14:14:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-05T14:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:16:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:16:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T14:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T14:17:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T14:17:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:17:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:18:47+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T14:18:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:18:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:18:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:18:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: ÈùûÊ≥ïÊìç‰Ωú:showlist
+
+[ 2017-07-05T14:22:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:22:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:22:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:24:04+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:tianjia
+
+[ 2017-07-05T14:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:46:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:46:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:46:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:47:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T14:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:47:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:47:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T14:53:57+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0050s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Web\itshop\ThinkPHP\Library\Think\Model.class.php Á¨¨ 267 Ë°å.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Web\itshop\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 791 Ë°å.
+SQL: INSERT INTO `sp_role` () VALUES () [ RunTime:0.1270s ]
+NOTIC: [2] Illegal string offset 'role_id' E:\Web\itshop\ThinkPHP\Library\Think\Model.class.php Á¨¨ 328 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T14:54:07+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0050s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\Web\itshop\ThinkPHP\Library\Think\Model.class.php Á¨¨ 267 Ë°å.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Web\itshop\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 791 Ë°å.
+SQL: INSERT INTO `sp_role` () VALUES () [ RunTime:0.0760s ]
+NOTIC: [2] Illegal string offset 'role_id' E:\Web\itshop\ThinkPHP\Library\Think\Model.class.php Á¨¨ 328 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T14:57:04+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0740s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('ÈòøËææ') [ RunTime:0.0660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:01:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('ÂïäËææ') [ RunTime:0.0720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:03:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('ÂïäÂïä') [ RunTime:0.1060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T15:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('Âïä‰∫å') [ RunTime:0.2120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T15:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('ÂïäÂá∫') [ RunTime:0.0760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T15:52:23+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/31.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-07-05T15:52:26+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute/role_id/31.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-07-05T15:52:28+08:00 ] 127.0.0.1 /index.php/Admin/Role/showlist
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-07-05T15:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T15:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:53:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:53:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T15:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('ËÄÅÁéã') [ RunTime:0.0940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:05:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0070s ]
+NOTIC: [8] Array to string conversion E:\Web\itshop\Application\Admin\Controller\RoleController.class.php Á¨¨ 22 Ë°å.
+
+[ 2017-07-05T16:06:16+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0120s ]
+
+[ 2017-07-05T16:06:48+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0110s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+
+[ 2017-07-05T16:07:12+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+NOTIC: [8] Array to string conversion E:\Web\itshop\Application\Admin\Controller\RoleController.class.php Á¨¨ 22 Ë°å.
+
+[ 2017-07-05T16:07:44+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0060s ]
+
+[ 2017-07-05T16:07:57+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+
+[ 2017-07-05T16:08:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+
+[ 2017-07-05T16:08:40+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0090s ]
+
+[ 2017-07-05T16:08:53+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: auth_id E:\Web\itshop\Application\Admin\Controller\RoleController.class.php Á¨¨ 30 Ë°å.
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\Application\Admin\Model\RoleModel.class.php Á¨¨ 9 Ë°å.
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0080s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 567 Ë°å.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-07-05T16:09:21+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110')  [ RunTime:0.0470s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist' WHERE `role_id` = 31 [ RunTime:0.1540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:09:27+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110')  [ RunTime:0.0010s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist' WHERE `role_id` = 31 [ RunTime:0.1060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:09:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auth_id E:\Web\itshop\Application\Admin\Controller\RoleController.class.php Á¨¨ 29 Ë°å.
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\Application\Admin\Model\RoleModel.class.php Á¨¨ 9 Ë°å.
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0050s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 567 Ë°å.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-07-05T16:10:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110')  [ RunTime:0.0010s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist' WHERE `role_id` = 31 [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:10:23+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: auth_id E:\Web\itshop\Application\Admin\Controller\RoleController.class.php Á¨¨ 29 Ë°å.
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\Application\Admin\Model\RoleModel.class.php Á¨¨ 9 Ë°å.
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed E:\Web\itshop\ThinkPHP\Library\Think\Db\Driver.class.php Á¨¨ 567 Ë°å.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-07-05T16:10:27+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('105','108','111')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='105,108,111',`role_auth_ac`='Goods-tianjia,Order-dayin,Role-showlist' WHERE `role_id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('106','109','112')  [ RunTime:0.0156s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='106,109,112',`role_auth_ac`='Category-showlist,Order-tianjia,Auth-showlist' WHERE `role_id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:12:34+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('105','106','108','111')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='105,106,108,111',`role_auth_ac`='Goods-tianjia,Category-showlist,Order-dayin,Role-showlist' WHERE `role_id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('109','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='109,112',`role_auth_ac`='Order-tianjia,Auth-showlist' WHERE `role_id` = 0 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','109','103','110','111','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,109,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Order-tianjia,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','108','103','110','111','112')  [ RunTime:0.0156s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,108,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Order-dayin,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:18:04+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.0844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:18:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','109','103','110','111','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,109,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Order-tianjia,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.1000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:18:52+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist' WHERE `role_id` = 31 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:19:00+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111')  [ RunTime:0.0010s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist' WHERE `role_id` = 31 [ RunTime:0.0774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-07-05T16:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111','112')  [ RunTime:0.0010s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.0538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:19:54+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist' WHERE `role_id` = 31 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:21:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111','112')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111,112',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist' WHERE `role_id` = 31 [ RunTime:0.1010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:21:50+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','102','107','103','110','111','112','113')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,102,107,103,110,111,112,113',`role_auth_ac`='Goods-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist,Auth-State' WHERE `role_id` = 31 [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:22:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/distribute
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` > '0' AND `auth_id` IN ('101','104','105','106','102','107','103','110','111','112','113')  [ RunTime:0.0000s ]
+SQL: UPDATE `sp_role` SET `role_auth_ids`='101,104,105,106,102,107,103,110,111,112,113',`role_auth_ac`='Goods-showlist,Goods-tianjia,Category-showlist,Order-showlist,Manager-showlist,Role-showlist,Auth-showlist,Auth-State' WHERE `role_id` = 31 [ RunTime:0.0468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:29:11+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0000s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_role` [ RunTime:0.0000s ]
+SQL: INSERT INTO `sp_role` (`role_name`) VALUES ('acca') [ RunTime:0.1156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Auth/State
+ERR: ÈùûÊ≥ïÊìç‰Ωú:State
+
+[ 2017-07-05T16:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Auth/upd/auth_id/101.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:upd
+
+[ 2017-07-05T16:41:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:41:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T16:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:41:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T16:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Auth/update/auth_id/101.html
+ERR: Ê®°Êùø‰∏çÂ≠òÂú®:./Application/Admin/View/Auth/update.html
+
+[ 2017-07-05T18:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T18:29:50+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T18:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T19:26:51+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0060s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 113 [ RunTime:0.1460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T19:37:17+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 114 [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T19:37:24+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 115 [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T19:43:52+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 116 [ RunTime:0.1560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T19:44:16+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 118 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 118 [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T19:44:33+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 117 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T19:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 119 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 119 [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T19:44:44+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 117 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 117 [ RunTime:0.1090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T20:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Auth/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_pid` = 120 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `sp_auth` WHERE `auth_id` = 120 [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T20:20:31+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/shoulist.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:shoulist
+
+[ 2017-07-05T22:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T22:29:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T22:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T22:29:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T22:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T22:34:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T22:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T22:34:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:07:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0140s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0170s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:07:51+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0250s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T23:07:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:09:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:09:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0250s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '4'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0240s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:10:43+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0250s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:10:45+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0150s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:11:27+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0110s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0150s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:11:29+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0110s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0170s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0120s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:26:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-05T23:26:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-05T23:26:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:26:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '0'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_auth` WHERE `auth_level` = '1'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T23:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0030s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0030s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '4'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:12+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:15+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:32:17+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:32:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:54+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '4'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:32:56+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:38:26+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:38:28+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:38:30+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '4'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:38:39+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:39:41+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:39:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:39:46+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:40:24+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:40:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:40:55+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:40:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:51:33+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0030s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0030s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '0'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:51:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '0'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:53:50+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '0'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:54:26+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-05T23:54:32+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '0'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:55:39+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '0'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-05T23:55:45+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id  WHERE a.type_id = '2'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-05T23:58:28+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type t on a.type_id=t.type_id   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

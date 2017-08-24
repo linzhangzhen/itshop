@@ -1,0 +1,1066 @@
+[ 2017-07-07T09:28:15+08:00 ] 127.0.0.1 /index.php/Admin/Manager/checkVerify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T09:28:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T09:28:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T09:28:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T09:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `sp_auth`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T09:28:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T09:35:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T13:30:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T13:30:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'goods_id' cannot be null
+
+[ 2017-07-07T13:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/tianjia.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '罐头' for key 'goods_name'
+
+[ 2017-07-07T13:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T13:35:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T20:12:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:13:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:13:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:14:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T20:14:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:16:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/upd?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 33 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `goods_id` = 33  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:30:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2?goods_id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:getAttrByType2
+
+[ 2017-07-07T20:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+ERR: 非法操作:getAttrByType2
+
+[ 2017-07-07T20:33:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.2440s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.7480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:34:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:34:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:35:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:35:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T20:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:38:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:38:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T20:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:38:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `sp_auth`  [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-07T20:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:43:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-07-07T20:44:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:48:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:51:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:51:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '1'  [ RunTime:0.0300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T20:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0260s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:52:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0310s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:53:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:57:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0310s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:57:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '4'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T20:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:57:21+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:57:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T20:58:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-07T20:59:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0320s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T20:59:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:00:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:00:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '4'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:00:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0030s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:00:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T21:00:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = ''  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:00:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '1'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-07-07T21:01:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '5'  [ RunTime:0.0730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '4'  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T21:01:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:03:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T21:04:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=33) attr_values FROM sp_attribute a WHERE a.type_id = '2'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T22:22:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:22:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:22:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/left.html
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.1000s ]
+SQL: SELECT * FROM `sp_auth`  [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T22:23:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0340s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 5  [ RunTime:0.0920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 2  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:24:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 3  [ RunTime:0.0210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T22:46:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=34) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:50:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 5  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T22:50:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 4  [ RunTime:0.0290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T22:50:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T22:50:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0160s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 3  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-07T22:59:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=35) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T23:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=35) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T23:01:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `pics_id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `sp_goods_pics` WHERE `pics_id` = 20 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T23:02:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=35) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T23:03:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0060s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=35) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-07T23:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/delPics.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0300s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods_pics` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods_pics` WHERE `pics_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `sp_goods_pics` WHERE `pics_id` = 25 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T23:03:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0040s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,a.attr_sel,a.attr_vals,(select group_concat(ga.attr_value) from sp_goods_attr ga where ga.attr_id=a.attr_id and ga.goods_id=35) attr_values FROM sp_attribute a WHERE a.type_id = '3'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

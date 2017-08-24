@@ -1,0 +1,30 @@
+[ 2017-07-17T18:37:24+08:00 ] 127.0.0.1 /index.php/Home/Api/weiboCallback
+ERR: 无法加载控制器:Api
+
+[ 2017-07-17T18:53:56+08:00 ] 127.0.0.1 /index.php/Home/API/weibocallback?code=528e9bd11c238f5234ba68da4e28a8b5
+ERR: get access token failed.redirect_uri_mismatch
+
+[ 2017-07-17T19:08:09+08:00 ] 127.0.0.1 /index.php/Home/Api/weiboCallback?code=95f6f34c8a868ba8bcbc0d1e96f62052
+ERR: 无法加载控制器:Api
+
+[ 2017-07-17T19:08:40+08:00 ] 127.0.0.1 /index.php/Home/Api/weiboCallback?code=95f6f34c8a868ba8bcbc0d1e96f62052
+ERR: 无法加载控制器:Api
+
+[ 2017-07-17T19:22:22+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=6a92be7bcfbaa8b84b154a3b110d9deb
+ERR: Class 'Common\Common\oAuth' not found
+
+[ 2017-07-17T19:26:09+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=919911d6428cd1104b9b6bc0c571c91c
+ERR: Class 'Common\Common\oAuth2' not found
+
+[ 2017-07-17T19:27:53+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=712a914ba15e8be1f4f368dc696af5c1
+ERR: get access token failed.invalid_grant
+
+[ 2017-07-17T19:32:26+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=b13178e045a904d7a4114895b18f6470
+ERR: get access token failed.invalid_grant
+
+[ 2017-07-17T19:34:12+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=ee201a52c9018a95e7b3105db9e56f6c
+ERR: syntax error, unexpected ']', expecting ',' or ')'
+
+[ 2017-07-17T19:51:14+08:00 ] 127.0.0.1 /index.php/Home/API/weiboCallback?code=68554e9957c7e159b680bee81922d9d5
+ERR: get access token failed.invalid_grant
+

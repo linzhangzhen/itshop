@@ -1,0 +1,22 @@
+[ 2017-07-15T09:21:28+08:00 ] 127.0.0.1 /index.php/Home/User/www.baidu.com.html
+ERR: 闈炴硶鎿嶄綔:www.baidu.com
+
+[ 2017-07-15T09:23:18+08:00 ] 127.0.0.1 /index.php/Home/User/www.baidu.com.html
+ERR: 闈炴硶鎿嶄綔:www.baidu.com
+
+[ 2017-07-15T09:23:23+08:00 ] 127.0.0.1 /index.php/Home/User/www.baidu.com.html
+ERR: 闈炴硶鎿嶄綔:www.baidu.com
+
+[ 2017-07-15T09:50:28+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+ERR: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2017-07-15T09:56:36+08:00 ] 127.0.0.1 /index.php/Home/User/callback?code=15CFA1E2D3BAC3CDD365760BE5AF464B&state=ffca9e41c17461a5a79f3eeeda090fab
+ERR: Class 'Home\Controller\QC' not found
+
+[ 2017-07-15T09:56:52+08:00 ] 127.0.0.1 /index.php/Home/User/callback?code=5FB77E446E8A1D82678C8AF0BAA71899&state=8a5193c312adb46486a7ef97d596e022
+ERR: Class 'QC' not found
+
+[ 2017-07-15T14:55:05+08:00 ] 127.0.0.1 /index.php/Home/API/get_tianqi
+ERR: 闈炴硶鎿嶄綔:get_tianqi
+

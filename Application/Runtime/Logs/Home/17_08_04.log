@@ -1,0 +1,130 @@
+[ 2017-08-04T00:47:50+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:00:59+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:01:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:09:07+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:13:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-04T01:13:22+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:13:31+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0060s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:13:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0080s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0010s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:18:03+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T01:19:19+08:00 ] 127.0.0.1 /index.php/Home/Goods/getGoodsDynamic
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0130s ]
+SQL: SELECT a.attr_id,a.attr_name,group_concat(ga.attr_value) attr_values FROM sp_goods_attr ga INNER JOIN sp_attribute a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '43' AND a.attr_sel = 'many' GROUP BY a.attr_id  [ RunTime:0.0000s ]
+SQL: SELECT `goods_number` FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,15 @@
+[ 2017-08-04T15:13:33+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/WechatServerConnect
+ERR: 无法加载控制器:Wechat
+
+[ 2017-08-04T15:16:41+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/WechatServerConnect
+ERR: Class 'Wechat\Controller\Exception' not found
+
+[ 2017-08-04T15:18:59+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/WechatServerConnect
+ERR: Class 'Wechat\Controller\Exception' not found
+
+[ 2017-08-04T15:21:48+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/WechatServerConnect
+ERR: syntax error, unexpected '{'
+
+[ 2017-08-04T15:26:10+08:00 ] 127.0.0.1 /index.php/Wechat/Wechat/WechatServerConnect
+ERR: Class 'Wechat\Controller\Exception' not found
+

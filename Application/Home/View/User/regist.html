@@ -1,0 +1,319 @@
+<layout name="Pub/layout2"/>
+<link rel="stylesheet" href="{:C('CSS_URL')}base.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}global.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}login.css" type="text/css">
+
+
+<!-- 注册主体部分start -->
+<div class="login w990 bc mt10 regist">
+	<div class="login_hd">
+		<h2>用户注册</h2>
+		<b></b>
+	</div>
+	<div class="login_bd">
+		<div class="login_form fl">
+			<form action="" method="post" id="regist_form">
+				<ul>
+					<li>
+						<label for="">用户名：</label>
+						<input type="text" class="txt" name="username" onblur="check_name(this)"  id="username" />
+						<p>3-20位字符，可由中文、字母、数字和下划线组成</p>
+					</li>
+					<li>
+						<label for="">密码：</label>
+						<input type="password" class="txt" name="password" onblur="check_pass(this)" id="password" />
+						<p>6-20位字符，可使用字母、数字和符号的组合，不建议使用纯数字、纯字母、纯符号</p>
+					</li>
+					<li>
+						<label for="">确认密码：</label>
+						<input type="password" class="txt" name="password2" onblur="check_pass2(this)" id="password2" />
+						<p> 请再次输入密码</p>
+					</li>
+					<li>
+						<label for="">邮箱：</label>
+						<input type="text" class="txt" name="email"  id="user_email" />
+						<p> 输入邮箱</p>
+					</li>
+					<li>
+						<label for="">手机号：</label>
+						<input type="text"  name="user_tel"  style="margin-top: 7px" maxlength="11" />
+						<input type="button" onclick="send_telverify(this)" id="s_verify" value="发送验证码">
+						<p>手机号</p>
+					</li>
+					<li class="checkcode">
+						<label for="">手机号验证码：</label>
+						<input type="text"  name="checkcode" onblur="check_telverify(this)"  style="margin-top: 7px" maxlength="4"  id="telverify"/>
+						<p style="color: red"></p>
+					</li>
+					<li class="checkcode">
+						<label for="">验证码：</label>
+						<input type="text"  name="checkcode" onblur="check_verify(this)"  style="margin-top: 7px" maxlength="4" />
+						<img  onclick="this.src='__CONTROLLER__/verifyImg/'+Math.random()" src="__CONTROLLER__/verifyImg"  id="verify_img"/>
+						<p style="color: red"></p>
+					</li>
+					<li>
+						<label for="">&nbsp;</label>
+						<input type="checkbox" class="chb" checked="checked" id="check_xieyi" /> 我已阅读并同意《用户注册协议》
+					</li>
+					<li>
+						<label for="">&nbsp;</label>
+						<input type="button"  class="login_btn"  onclick="f_submit(this)" id="form_submit"/>
+					</li>
+				</ul>
+			</form>
+
+
+		</div>
+
+		<div class="mobile fl">
+			<h3>手机快速注册</h3>
+			<p>中国大陆手机用户，编辑短信 “<strong>XX</strong>”发送到：</p>
+			<p><strong>1069099988</strong></p>
+		</div>
+
+	</div>
+</div>
+<!-- 注册主体部分end -->
+
+<script type="text/javascript">
+    //定义一个全局变量，每验证成功一个就true一个 全true时就可以点击注册了
+    var name_c = false;
+    var pass_c = false;
+    var pass2_c = false;
+    var verify_c = false;
+    //var telverify_c = false;
+
+	/*
+	 方便显示报错信息的方法
+	 tip  string  提示信息
+	 id  string   ID
+	 re  布尔值  结果
+	 */
+    function tips(tip,id,re=false) {
+        var s = '';
+        if(re){
+            s += '<p style="color: green" id="'+id+'_r">'+tip+'</p>';
+        }else {
+            s = '<p style="color: red" id="'+id+'_r">'+tip+'</p>';
+        }
+        $('#'+id).next().remove();
+        $('#'+id).parent().append(s);
+    }
+
+
+    //ajax各种验证
+
+    //ajax验证用户名是否正确
+    function check_name(obj) {
+        var name = obj.value
+        //console.log(name);
+        //先判断是否为空
+        if(name === ''){
+            //如果为空就在提示栏显示
+            //先删除下一个兄弟节点，然后加上一个新的
+			/*    var s = '<p style="color: red">用户名不可为空！</p>';
+			 $('#username').next().remove();
+			 $('#username').parent().append(s);*/
+            tips('用户名不可为空！','username');
+        }else{
+            // 格式 用正则表达式
+            var  zz = /^[\u4e00-\u9fa5_a-zA-Z0-9]{3,20}$/gi;
+            var  re = zz.test(name);
+            //console.log(re);
+            if(re === false){
+                tips('用户名格式不正确，请输入3-20位中文、字母、数字和下划线','username');
+                name_c = false;
+            }else{
+                //通过ajax与服务器交互验证
+                $.ajax({
+                    url:'__CONTROLLER__/checkName',
+                    data:{'username':name},
+                    type:'post',
+                    dataType:'json',
+                    success:function (msg) {
+                        //console.log(msg);
+                        if(msg.status === 1){
+                            //可以注册
+                            tips('恭喜你，该用户名可用','username',true);
+                            name_c = true;
+                        }else {
+                            //用户名已经存在
+                            tips('很遗憾，该用户名已被注册啦','username');
+                            name_c = false;
+                        }
+                    }
+                })
+            }
+        }
+    }
+
+    //JS验证密码输入与格式
+    function check_pass(obj) {
+        var pass = obj.value
+        //console.log(pass);
+        if(pass == ''){
+            tips('密码不可为空','password');
+            pass_c = false;
+        }else{
+            // 格式 用正则表达式
+            var  zz = /^[a-zA-Z0-9]{6,20}$/gi;
+            var  re = zz.test(pass);
+            //console.log(re);
+            if(re == false){
+                tips('密码格式不正确，请输入6-20位字母、数字和符号的组合','password');
+                pass_c = false;
+            }else{
+                //正确
+                tips('密码可用','password',true);
+                pass_c = true;
+            }
+        }
+    }
+
+    //JS验证密码确认
+    function check_pass2(obj) {
+        var pass1 = $('#password').val();
+        var pass2 = obj.value;
+        //console.log(pass1);
+        //console.log(pass2);
+        if(pass2 == ''){
+            //空
+            tips('确认密码也不可为空','password2');
+            pass2_c = false;
+        }else {
+            if(pass1 == pass2){
+                //一致
+                tips('两次输入的密码一致','password2',true);
+                pass2_c = true;
+            }else{
+                //不一致
+                tips('两次输入的密码不一致','password2');
+                pass2_c = false;
+            }
+        }
+
+
+
+
+    }
+
+    //验证码功能
+    function check_verify(obj) {
+        var verify = obj.value;
+        //console.log(verify);
+        if(verify == ''){
+            //空
+            tips('验证码不可为空！','verify_img');
+            verify_c = false;
+        }else{
+            //通过ajax验证
+            $.ajax({
+                url:'__CONTROLLER__/checkVerify',
+                data:{'verify':verify},
+                type:'post',
+                dataType:'json',
+                success:function (msg) {
+                    //console.log(msg);
+                    if(msg.status === 0){
+                        tips('验证码正确！','verify_img',true);
+                        verify_c = true;
+                    }else{
+                        tips('验证码错误！','verify_img');
+                        verify_c = false;
+                    }
+                }
+            })
+        }
+
+    }
+
+    //发送手机验证码功能
+    function send_telverify(obj) {
+        //获取手机号码
+        var tel = $('[name=user_tel]').val();
+
+        //layer.msg('测试');
+        $.ajax({
+            url:'__MODULE__/User/sendCont',
+            data:{'tel':tel},
+            dataType:'json',
+            type:'post',
+            success:function (msg) {
+                //console.log(msg);
+                if(msg.status === 0){
+                    layer.msg('成功');
+                    tips('短信发送成功！','s_verify',true);
+                }else{
+                    tips('短信发送失败！','s_verify');
+                }
+            }
+        });
+    }
+
+    //验证手机验证码功能
+    function check_telverify(obj) {
+        layer.msg('测试！');
+        var telcode = obj.value;
+        //console.log(verify);
+        if(telcode == ''){
+            //空
+            tips('验证码不可为空！','verify_img');
+            telverify_c = false;
+        }else{
+            //通过ajax验证
+            $.ajax({
+                url:'__CONTROLLER__/checkTelVerify',
+                data:{'telcode':telcode},
+                type:'post',
+                dataType:'json',
+                success:function (msg) {
+                    console.log(msg);
+                    if(msg.status === 0){
+                        tips(msg.tips,'telverify',true);
+                        telverify_c = true;
+                    }else{
+                        tips(msg.tips,'telverify');
+                        telverify_c = false;
+                    }
+                }
+            })
+        }
+
+    }
+
+    //注册提交功能
+    function f_submit(obj) {
+        //console.log(name_c);
+        if( name_c === true && pass_c === true && pass2_c === true && verify_c === true){
+            //layer.msg('通过全部验证！')
+
+            //收集表单数据与服务器交互
+            var data = $('#regist_form').serialize();
+            //console.log(data);
+
+            $.ajax({
+                url:'__CONTROLLER__/regist',
+                data:data,
+                type:'post',
+                dataType:'json',
+                success:function (msg) {
+                    console.log(msg);
+                    if(msg.status == 0){
+                        //成功
+                        layer.msg(msg.tips);
+                        //跳转到登录页
+                        window.location.href="__CONTROLLER__/login"
+                    }else {
+                        //失败
+                        layer.msg(msg.tips);
+                    }
+                }
+            })
+
+        }else {
+            layer.msg('请你认真完成全部选项')
+        }
+    }
+
+
+</script>

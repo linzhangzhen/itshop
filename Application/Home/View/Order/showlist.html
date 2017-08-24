@@ -1,0 +1,70 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2" />
+
+<title>订单列表页面</title>
+<link rel="stylesheet" href="{:C('CSS_URL')}base.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}global.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}header.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}cart.css" type="text/css">
+<link rel="stylesheet" href="{:C('CSS_URL')}footer.css" type="text/css">
+
+<script type="text/javascript" src="{:C('JS_URL')}jquery-1.8.3.min.js"></script>
+
+
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+<!-- 主体部分 start -->
+<div class="mycart w990 mt10 bc">
+    <h2><span>我的订单</span></h2>
+    <table>
+
+        <foreach name="orderinfo" item="v"  key="k">
+            <tbody>
+            <tr>
+                <td class="col2"> <p>订单ID</p> <p>{$v['order_info']['order_number']}</p> </td>
+                <td class="col2"> <p>订单价格</p> <p>{$v['order_info']['order_price']}</p> </td>
+                <td class="col2"> <p>是否付款</p> <p>{$v['order_info']['order_status'] == '0'?'<span style="font-weight: bold;color:red">未付款</span>':'<span style="font-weight: bold;color:green">已付款</span>'}</p> </td>
+                <td class="col2"> <p>是否发货</p> <p>{$v['order_info']['is_send'] == '是'?'<span style="font-weight: bold;color:green">已发货</span>':'<span style="font-weight: bold;color:red">未发货</span>'}</p> </td>
+            </tr>
+            <tr>
+                <td class="col2"> <p>购买时间</p> <p>{$v['order_info']['add_time']|date='Y-m-d H:i:s',###}</p> </td>
+                <td class="col2"> <p>订单价格</p> <p>{$v['order_info']['order_price']}</p> </td>
+                <td class="col2"> <p>支付方式</p> <p>{$v['order_info']['order_pay']}</p> </td>
+                <td class="col2"> <button><a href="{:U('Order/detail',array('order_id'=>$k))}">查看详情</a></button> </td>
+
+            </tr>
+            <foreach name="v['goods_info']" item="vv" key="kk">
+                <tr>
+                    <td class="col1"><img src="{$vv['goods_small_logo']|substr=###,1}" alt="暂无图片" />  <strong>{$vv['goods_name']}</strong></td>
+                    <td class="col2"> <p>商品价格</p> <p>{$vv['goods_price']}</p> </td>
+                    <td class="col2"> <p>购买数量</p> <p>{$vv['goods_number']}</p> </td>
+                    <td class="col2"> <p>小计价格</p> <p>{$vv['goods_total_price']}</p> </td>
+                </tr>
+            </foreach>
+                <tr>
+                    <td>
+                        <input type="text" style="width: 600px"  readonly="readonly">
+
+                    </td>
+                </tr>
+            </tbody>
+
+        </foreach>
+        <tfoot>
+        <tr>
+            <td colspan="6">购物金额总计： <strong>￥ <span id="total">{$number_price.price}</span></strong></td>
+        </tr>
+        </tfoot>
+    </table>
+    <div class="cart_btn w990 bc mt10">
+        <a href="" class="continue">继续购物</a>
+        <a href="{:U('flow2')}" class="checkout"></a>
+    </div>
+</div>
+<!-- 主体部分 end -->
+
+
+
